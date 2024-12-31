@@ -1,0 +1,4 @@
+tkinter
+speechrecognition
+numpy==1.23.5
+pillow>=9.3.0
