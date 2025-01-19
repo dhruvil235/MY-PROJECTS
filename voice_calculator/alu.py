@@ -126,8 +126,7 @@ class ALU:
 
     def extract_function_and_arguments(self, command):
         """
-        Extracts the function (sin, cos, tan) and the argument (the number inside the parentheses).
-        Example: 'tan(45)' -> ('tan', [45])
+        'tan(45)' -> ('tan', [45])
         """
         # Find the function (sin, cos, tan) and the argument inside parentheses
         for func in ["sin", "cos", "tan"]:
